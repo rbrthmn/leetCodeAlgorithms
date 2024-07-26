@@ -1,8 +1,7 @@
-package br.com.rbthmn.algorithms
+package br.com.rbthmn.algorithms.easy
 
 import br.com.rbthmn.Problem
 import br.com.rbthmn.algorithms.utils.moveElementToLastIndex
-import java.lang.Math.random
 
 @Problem(26)
 fun removeDuplicates(nums: IntArray): Int {

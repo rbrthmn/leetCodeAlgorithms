@@ -1,4 +1,4 @@
-package br.com.rbthmn.algorithms
+package br.com.rbthmn.algorithms.easy
 
 import br.com.rbthmn.Problem
 
