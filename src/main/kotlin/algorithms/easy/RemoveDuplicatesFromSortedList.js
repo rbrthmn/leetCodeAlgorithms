@@ -31,3 +31,21 @@ var deleteDuplicates = function (head) {
 
     return firstNode
 };
+
+    if (head) {
+        while (head?.val !== val) {
+            if (head.val === val) {
+                if (startNode.val === head.val) {
+                    startNode = head.next
+                }
+
+                if (head?.next?.next === null) {
+                    head.next = null
+                }  else {
+                    head = head?.next?.next
+                }
+            } else {
+                head = head.next
+            }
+        }
+    }
