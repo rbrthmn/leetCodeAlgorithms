@@ -1,9 +1,3 @@
-/**
- * Problem 121
- * 
- * @param prices 
- * @returns 
- */
 function maxProfit(prices: number[]): number {
     let buyDay = 0
     let sellDay = buyDay + 1
