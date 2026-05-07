@@ -1,8 +1,3 @@
-/**
- * Problem 53
- * @param nums 
- * @returns 
- */
 function maxSubArray(nums: number[]): number {
     if (nums.length === 1) return nums[0]
 
@@ -18,7 +13,7 @@ function maxSubArray(nums: number[]): number {
 
         if (acc > maxSum) {
             maxSum = acc
-        } 
+        }
     }
 
     return maxSum

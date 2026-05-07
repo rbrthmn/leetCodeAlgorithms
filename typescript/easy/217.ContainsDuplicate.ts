@@ -1,9 +1,3 @@
-/**
- * Problem 217
- * 
- * @param nums 
- * @returns 
- */
 function containsDuplicate(nums: number[]): boolean {
     let set = new Set()
 

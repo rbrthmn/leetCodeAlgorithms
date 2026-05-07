@@ -1,9 +1,3 @@
-/**
- * Problem 242
- * @param s 
- * @param t 
- * @returns 
- */
 function isAnagram(s: string, t: string): boolean {
     if (s.length !== t.length) return false
 

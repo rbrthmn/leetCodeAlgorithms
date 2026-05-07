@@ -1,10 +1,3 @@
-/**
- * Problem 322
- * 
- * @param coins 
- * @param amount 
- * @returns 
- */
 function coinChange(coins: number[], amount: number): number {
     let map = new Map()
 
@@ -34,7 +27,6 @@ function subtractAmount(coins: number[], amount: number, map: Map<number, number
         }
         map.set(amount, result)
     }
-
 
     return result
 }

@@ -1,9 +1,3 @@
-/**
- * Problem 238
- * 
- * @param nums 
- * @returns 
- */
 function productExceptSelf(nums: number[]): number[] {
     let result = new Array(nums.length)
     let prefix = 1
